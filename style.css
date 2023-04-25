@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.box2{
+    background-color:whitesmoke; 
+    height: 50px;  
+   }
+   ol{
+       float: left;
+   }
+   ol li{
+       float: left;
+       width: 90px;
+       position: relative;
+       left: 25%;
+       display: flex;
+   }
+   ol li a{
+       text-decoration: none;
+       color: black;
+   }
+   .container{
+    /* position: absolute; */
+    top: 30%;
+    left: 10%;
+    color:white;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+   }
+   .cover img{
+    height: 400px;
+    width: 600px;
+    padding-left: 600px;
+    margin-bottom: 150px;
+    
+   }
+   .icons{
+    background-color: green;
+    
+   }
+   .icon1{
+    /* height: 200px; */
+   }
+   .page{
+    background-color: white;
+   }
+   .three{
+    background-color: white;
+   }
+   .contaner{
+    background-color: white;
+   }
+   .fourth{
+    background-color: white;
+   }
+   .sixth{
+    background-color: white;
+   }
+   /* table{
+    width: 400px;
+}
+th{
+    text-align:left ;
+} */
