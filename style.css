@@ -20,35 +20,83 @@ body{
        color: black;
    }
    .container{
-    /* position: absolute; */
     top: 30%;
     left: 10%;
     color:white;
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr); */
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+
+   }
+   .once{
+    padding-left: 150px;
+    margin-top: 20%;
    }
    .cover img{
-    height: 400px;
-    width: 600px;
-    padding-left: 600px;
-    margin-bottom: 150px;
-    
+    height: 40vh;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: 250px;
+     
+   }
+   .started{
+    /* margin-right: 200px;
+    padding-right: 200px; */
+
+
    }
    .icons{
     background-color: green;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding-top: 5%;
     
+   }
+   .table1{
+    border: solid black;
+    width: 200px;
+    height: 250px;
+    margin-left: 30%;
+    padding-top: 30px;
+    background-color:goldenrod;
+    
+   }
+   .table2{
+    border: solid black;
+    width:200px;
+    height:250px;
+    margin-left: 50%;
+    background-color: aquamarine;
+   }
+   .table3{
+    border: solid black;
+    width: 200px;
+    height: 250px;
+    margin-left: 30%;
+    padding-top: -50%;
+    background-color: blueviolet;
+   }
+   .Explanation{
+    /* padding-bottom: 30%; */
+   }
+   .three{
+    /* display: flex; */
    }
    .icon1{
     /* height: 200px; */
    }
    .page{
     background-color: white;
+    justify-content: space-between;
    }
    .three{
     background-color: white;
    }
    .contaner{
     background-color: white;
+    /* padding-top: 20%; */
+    margin-right: 20%;
    }
    .fourth{
     background-color: white;
@@ -56,9 +104,88 @@ body{
    .sixth{
     background-color: white;
    }
-   /* table{
+   .pages{
+    background-color: white;
+   }
+   .buttons{
+    background-color: white;
+   }
+  .sheila{
     width: 400px;
-}
-th{
-    text-align:left ;
-} */
+    padding-bottom: 10%;
+    /* height: 200px; */
+  }
+  .image{
+    width: 500px;
+    /* height: 300px; */
+  }
+  .small{
+    padding-top: 15%;
+  }
+  .pages{
+    display: flex;
+  }
+  .seventh{
+    /* display: flex; */
+    background-color:grey;
+  }
+  
+  .clarity{
+    /* margin-left: 60%; */
+  }
+  .faith{
+    display: flex;
+    margin-left: 60%;
+  }
+
+  .confirm{
+    margin-left: 60%;
+    display: flex;
+  }
+  .explain{
+    margin-left: 60%;
+  }
+  .confident{
+    margin-left: 60%;
+  }
+  .community{
+    margin-left: 60%;
+    display: flex;
+  }
+  .second{
+    background-color: white;
+  }
+  .country{
+    border: solid lightblue;
+    background-color: lightblue;
+    width: 200px;
+    height: 250px;
+    margin-left: 50%;
+  }
+  .five{
+    border: solid pink;
+    background-color: pink;
+    width: 200px;
+    height: 250px;
+    margin-left: 70%;
+    padding-top: -30%;
+  }
+  .bottons{
+    border: solid grey;
+    width: 500px;
+    height: 500px;
+  }
+  .Ready{
+    margin-left: 20%;
+    background-color: azure;
+   
+  }
+  .footer{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+  }
+  
